@@ -13,5 +13,8 @@ line(350,100,350,300);      //Right
 beginShape();
 vertex(100,350);
 vertex(500,350);
-vertex(300,450);
+curveVertex(550,100);
+curveVertex(500,350);
+curveVertex(100,350);
+curveVertex(50,100);
 endShape(CLOSE);
